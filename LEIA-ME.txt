@@ -1,0 +1,23 @@
+# NÓRD — Barbearia premium (projeto demonstrativo)
+
+Site institucional responsivo em HTML, CSS e JavaScript puro.
+
+## Visualizar
+1. Extraia o ZIP.
+2. Abra `index.html` no navegador (ou use Live Server no VS Code).
+
+## Personalização obrigatória antes de publicar
+- `script.js`: substitua o número de WhatsApp de demonstração pelo contato real (DDI + DDD + número, apenas dígitos).
+- `index.html`: atualize endereço, cidade, telefone, horários, serviços e preços. Os valores atuais são ilustrativos.
+- `styles.css`: personalize as variáveis no começo de `:root`:
+  - `--dark`: carvão principal
+  - `--paper`: fundo areia
+  - `--accent`: cobre suave
+  - `--accent2`: destaque claro
+
+## Observações
+- O formulário monta uma mensagem e abre o WhatsApp; não salva dados em servidor.
+- As imagens são carregadas de URLs externas do Unsplash; é necessária conexão com a internet.
+- Nome, endereço, horários e preços são fictícios.
+- Antes da publicação, teste links, formulário, visual em celular, acessibilidade, domínio e HTTPS.
+- Não anuncie serviços, preços, qualificações ou políticas que o estabelecimento não ofereça.
